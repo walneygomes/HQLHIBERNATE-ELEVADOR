@@ -1,0 +1,8 @@
+@Entity
+@Table (name"elevadores")
+ public class Elevador {
+     private Static final Double Peso= 80.0;
+     @OneToMany
+     private List pessoas=nem ArrayList <Pessoas>();
+     
+     }
